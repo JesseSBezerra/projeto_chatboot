@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 import os
 from streamlit_chat import message
-os.environ["OPENAI_API_KEY"] = "sk-proj-UU0ryLRcyswapiok1j5QT3BlbkFJ1wFEn2YlJBRSeQoRyxZP"
+os.environ["OPENAI_API_KEY"] = "SUA_SENHA_DO_OPEN_AI"
 client = OpenAI()
 model = "gpt-3.5-turbo"
 
